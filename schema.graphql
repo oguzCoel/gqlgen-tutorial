@@ -1,0 +1,11 @@
+type Klinik {
+    ID_KLINIK: Int
+    KLNK_BEZEICHNUNG: String
+    KLNK_NAME: String
+    KLNK_CODE: String
+    KLNK_NAME_CUSTOM: String
+}
+
+type Query {
+    kliniken: [Klinik!]!
+}
